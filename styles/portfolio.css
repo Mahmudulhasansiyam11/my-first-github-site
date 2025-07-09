@@ -18,6 +18,14 @@
     color: #474747;
 }
 
+.dark1-primary-color{
+    color: #181818;
+}
+
+.dark3-primary-color{
+    color: #757575;
+}
+
 .button-primary{
     background-color: #FD6E0A;
     border-radius: 5px;
@@ -200,4 +208,51 @@ img{
     font-size: 20px;
     font-weight: bold;
     color: #181818;
+}
+
+/* resume style */
+.resume-heading{
+    font-size: 35px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.resume-container{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.resume-container-content{
+    font-weight: 400px;
+}
+
+.resume-text{
+    font-size: 16px;
+}
+
+.resume-heading3{
+    font-size: 20px;
+}
+
+.resume-heading4{
+    font-size: 20px;
+}
+
+.resume-section{
+    display: flex;
+    gap: 24px;
+}
+
+.resume{
+    max-width: 1140px;
+    margin: 0 auto;
+    margin-top: 130px;
+}
+
+.resume button{
+    margin-top: 50px;
+    border-radius: 5px;
+}
+.rseume-button-textalign{
+    text-align: center;
 }
