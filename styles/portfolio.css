@@ -1,0 +1,56 @@
+/* shared section */
+
+
+.open-sans-textfont {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  /* font-weight: 600; */
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+.text-primary-color1{
+    color: #FD6E0A;
+}
+
+.dark2-primary-color{
+    color: #474747;
+}
+
+.button-primary{
+    background-color: #FD6E0A;
+    border-radius: 5px;
+    border: none;
+    width: 100%;
+    font-size: 20px;
+    color: white;
+    padding: 18px 35px;
+}
+
+/* Header section */
+.header-name-title{
+    font-size: 45px;
+    font-weight: 800;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 50 200px;
+}
+
+nav ul{
+    display: flex;
+    gap: 50px;
+    align-items: center;
+}
+
+nav ul li{
+    list-style: none;
+}
+
+nav ul li a{
+    text-decoration: none;
+    font-size: 20px;
+}
