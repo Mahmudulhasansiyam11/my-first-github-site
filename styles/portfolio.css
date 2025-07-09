@@ -256,3 +256,46 @@ img{
 .rseume-button-textalign{
     text-align: center;
 }
+
+/* footer styles */
+
+.footer-container{
+    display: flex;
+    gap: 100px;
+    margin-top: 130px;
+    padding: 130px 230px;
+}
+
+.footer-column1-header{
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.footer-column2{
+    margin-right: 100px;
+    margin-left: 100px;
+}
+
+.footer-column1-paragraph{
+    font-size: 16px;
+}
+
+.footer-icon img{
+    width: 24px;
+    height: 24px;
+}
+
+input[type="text"], input[type="email"], textarea{
+    width: 460px;
+    height: 64px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 24px;
+    padding: 18px 340px 18px 20px;
+}
+
+input[type="submit"]{
+    width: 150px;
+    display: block;
+    margin-top: 24px;
+}
